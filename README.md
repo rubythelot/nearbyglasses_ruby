@@ -167,7 +167,7 @@ RSSI drops roughly according to<br/>
 - Add an option to set false positives to an ignore list. Maybe in the notification?
 - I am no BT or Android expert at all. For what I've learned, one could also dig deeper into the communication of the smart glasses by sniffing the BLE traffic. By doing so, we would likely not need to rely on the device behaving according to the BT specifications but could also use heuristics on the encrypted traffic transmissions without much false positives. But I haven't looked into BT traffic packets for more than ten years. I'm glad I remembered ADV frames... So if anybody could help on this, that'd be greatly appreciated!
 ---
-- Add **more manufacturers IDs** of smart glasses. Right now, it's Meta, Oakley and Snap. A list of smart glasses with cameras available would help, too.
+- Add **more manufacturers IDs** of smart glasses. Right now, it's Meta, Oakley and Snap. A list of smart glasses with cameras available would help, too. I opened an [ISSUE for this](https://github.com/yjeanrenaud/yj_nearbyglasses/issues/56), so people might **assist** by sending in their logs (which are perfectly safe, imho) when encoutering other recording smart glasses
 - as of March 24, 2026, the iOS version is available, too.
 - There **layout issue** with **Google Pixel devices** seems to be fixed as of Version 1.0.3. If you still can't reach the menu as it's mixed with the status bar somehow. Will look into that asap. Meanwhile, try to put your screen to landscape mode and rotate *clockwise (to the right)*. 
 
